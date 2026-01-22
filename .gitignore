@@ -1,0 +1,18 @@
+# OS junk
+.DS_Store
+
+# Editor backup files
+*.save
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Google API secrets
+client_secret.json
+token.json
+
+# Local inputs & outputs
+input/
+results/
