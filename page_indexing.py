@@ -1,3 +1,20 @@
+#!/usr/bin/env python3
+"""
+GSC URL Indexing Status Checker (single-file)
+
+What it does:
+- Prompts you in the terminal to choose/paste a GSC property (siteUrl)
+- Reads a list of URLs from a text file (one URL per line)
+- Uses the Search Console URL Inspection API to fetch indexing status per URL
+- Saves results into: ./results/YYYY-MM-DD/index_status.csv
+
+Prereqs:
+- Enable "Google Search Console API" in Google Cloud for your project
+- OAuth Client ID: "Desktop app" -> download as client_secret.json into this folder
+- Install deps:
+    pip install google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
+"""
+
 from __future__ import annotations
 
 import csv

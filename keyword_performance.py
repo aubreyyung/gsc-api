@@ -1,4 +1,27 @@
 #!/usr/bin/env python3
+"""
+Keyword Performance from a Keyword List (Google Search Console API)
+
+What it does:
+- Prompts you to choose/paste a GSC property (siteUrl)
+- Prompts you for a date range (YYYY-MM-DD)
+- Reads keywords from a text file (one keyword per line)
+- Queries GSC Search Analytics API for each keyword (exact match)
+- Saves results to: results/YYYY-MM-DD/keyword_performance/keywords.csv
+
+Works whether your auth files are in:
+- project root: client_secret.json + token.json
+OR
+- .secrets/: .secrets/client_secret.json + .secrets/token.json
+
+Prereqs:
+- Enable "Google Search Console API" in Google Cloud Console
+- Create OAuth Client ID (Desktop app)
+- Download credentials as client_secret.json
+
+Install deps:
+  pip install google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
+"""
 
 from __future__ import annotations
 
