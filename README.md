@@ -26,17 +26,17 @@ More scripts can be added over time (performance exports, coverage audits, etc.)
 
 ## Repository structure
 
+```text
 gsc-api/
-├── page_indexing.py
-├── client_secret.json      # local only (ignored by git)
-├── token.json              # auto-created (ignored by git)
-├── input/
-│   └── urls.txt
-├── results/
-│   └── YYYY-MM-DD/
-│       └── index_status.csv
+├── scripts/
+│   └── page_indexing.py
+├── data/
+│   ├── input/
+│   └── output/
 ├── .gitignore
-└── README.md
+├── README.md
+└── LICENSE
+```
 
 Each script:
 - Reads input from the `input/` folder
