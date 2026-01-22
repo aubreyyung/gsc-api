@@ -16,9 +16,11 @@ This repo contains **independent scripts**, each focused on a specific Google Se
 
 Current scripts:
 
-| Script | Description |
-|------|-------------|
-| `page_indexing.py` | Check page indexing status for a list of URLs using the URL Inspection API |
+| Script | Description |Default Input File Name|
+|------|-------------|-------|
+| `page_indexing.py` | Check page indexing status for a list of URLs using the URL Inspection API |`url.txt`|
+| `keyword_performance.py` | Check performance data for a list of keywords during a specified date range |`keywords.txt`|
+
 
 More scripts can be added over time (performance exports, coverage audits, etc.).
 
