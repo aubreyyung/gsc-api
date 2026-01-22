@@ -51,9 +51,8 @@ Each script:
 - A Google account with access to the relevant Search Console properties
 - Google Cloud project with **Google Search Console API enabled**
 
-⸻
 
-##Security
+## Security
 
 This repository ignores:
 	•	OAuth credentials
@@ -63,9 +62,7 @@ This repository ignores:
 
 If credentials are ever committed by mistake, rotate them immediately in Google Cloud Console.
 
-⸻
-
-##Contributing
+## Contributing
 
 Feedback are welcome:
 	•	New scripts
